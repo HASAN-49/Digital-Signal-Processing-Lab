@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 # Analog signal parameters
 A = 3
 f = 50  # Hz
+#Nyquist Rate = 2 * f
 omega = 2 * np.pi * f  # 100π rad/s
 
 # Sampling at 200 Hz
